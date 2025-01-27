@@ -51,4 +51,12 @@ local function checkPrice(ctx)
   request:execute()
 end
 
+local function coinHelp(ctx)
+  ctx.channel:add_system_message("Coin Command:")
+  ctx.channel:add_system_message(
+    "/checkcoin <fart|doge|bit> <c|s>` - display price of specified coin, c - send as chat message, s to display just for you")
+  ctx.channel:add_system_message("Ex: /checkcoin fart s")
+end
+
 c2.register_command("/checkcoin", checkPrice)
+c2.register_command("/coinhelp", coinHelp)
