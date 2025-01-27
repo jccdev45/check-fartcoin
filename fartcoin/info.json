@@ -1,0 +1,24 @@
+{
+  "name": "Fartcoin Checker",
+  "description": "Retrieves current price of Fartcoin",
+  "authors": [
+    "jccdev45"
+  ],
+  "homepage": "https://github.com/Chatterino/Chatterino2",
+  "tags": [
+    "test"
+  ],
+  "version": "0.0.0",
+  "license": "MIT",
+  "permissions": [
+    {
+      "type": "FilesystemRead"
+    },
+    {
+      "type": "FilesystemWrite"
+    },
+    {
+      "type": "Network"
+    }
+  ]
+}
