@@ -31,4 +31,4 @@ Chatterino v2.5.2 (or a version that has plugin support). You can find the secti
 
 ## Usage <a name = "usage"></a>
 
-- `/checkcoin <fart | doge | bit>`: display the price of specified coin (defaults to fart if no coin is provided)
+- `/checkcoin <fart | doge | bit> <c | s>`: display the price of specified coin (defaults to fart if no coin is provided) and if the message should display just for you or be sent as a chat message
